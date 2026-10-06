@@ -1,0 +1,19 @@
+body {
+     font-family: 'Trebuchet MS', sans-serif;
+}
+
+.kozep {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    min-height: 100vmax;
+}
+
+.szelek {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2 {
+    padding-left: 10px;
+}
