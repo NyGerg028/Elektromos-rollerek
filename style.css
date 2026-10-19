@@ -1,0 +1,71 @@
+body {
+     font-family: 'Trebuchet MS', sans-serif;
+     background-color: antiquewhite;
+     margin: 0;
+     background-image: url("roller-hatter.png");
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-attachment: fixed;
+}
+
+.kozep {
+    background-color: white;
+    width: 70%;
+    min-height: 100vmax;
+    margin: 0 auto;
+}
+
+.szelek {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 0;
+    padding: 30px;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    width: 200px;
+    display: block; 
+}
+
+span {
+    margin: auto;
+}
+
+.torzs {
+    width: 100%;
+}
+
+.baltorzs {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.kozeptorzs {
+    width: 50%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.jobbtorzs {    
+    width: 25%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.baloldalikep {
+    margin: 0 auto;
+}
