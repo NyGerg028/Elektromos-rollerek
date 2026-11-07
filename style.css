@@ -1,17 +1,17 @@
 body {
-     font-family: 'Trebuchet MS', sans-serif;
+     font-family: Trebuchet MS;
      background-color: antiquewhite;
      margin: 0;
-     background-image: url("roller-hatter.png");
+     background-image: url("hatter.jpg");
      background-repeat: no-repeat;
      background-size: 100%;
      background-attachment: fixed;
 }
 
 .kozep {
-    background-color: white;
-    width: 70%;
-    min-height: 100vmax;
+    background-color: gainsboro;
+    width: 80%;
+    min-height: 1500px;
     margin: 0 auto;
 }
 
@@ -23,8 +23,10 @@ body {
 h1 {
     text-align: center;
     text-decoration: underline;
-    margin: 0;
+    font-weight: bold;
+    margin: 0 auto 20px auto;
     padding: 30px;
+    font-size: 40px;
 }
 
 h2 {
@@ -52,20 +54,97 @@ span {
     width: 25%;
     float: left;
     box-sizing: border-box;
+    height: 1278px;
 }
 
 .kozeptorzs {
-    width: 50%;
-    margin: 0 auto;
+    width: 45%;
     box-sizing: border-box;
+    float: left;
 }
 
 .jobbtorzs {    
-    width: 25%;
-    float: right;
+    width: 30%;
+    float: left;
     box-sizing: border-box;
+    height: 1278px;
 }
 
 .baloldalikep {
     margin: 0 auto;
+}
+
+td {
+    border: 1px solid gray;
+    width: 25%;
+    padding: 4px;
+    background-color: white;
+}
+
+th {
+    border: 1px solid gray;
+    width: 25%;
+    padding: 4px;
+    background-color: lightgray;
+    border-right: 2px solid black;
+}
+
+table {
+    width: 90%;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid black;
+    border-spacing: 0;
+    box-shadow: 5px 5px 5px gray;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+.kepdoboz {
+    box-shadow: 0 4px 8px 0 gray;
+    border-radius: 10px;
+    margin: 100px 10px 10px 10px;
+    background-color: white;
+}
+
+.lablec {
+    width: 25%;
+    margin: 1350px auto 0 auto;
+    display: block;
+    
+}
+
+.balgomb {
+    float: left;
+    width: 33%;
+    text-align: center;
+    cursor: pointer;
+    display: hidden;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+.kozepgomb {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.jobbgomb {
+    float: left;
+    width: 33%;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+button:hover {
+    background-color: lightgray;    
 }
