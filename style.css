@@ -2,7 +2,7 @@ body {
      font-family: Trebuchet MS;
      background-color: antiquewhite;
      margin: 0;
-     background-image: url("hatter.jpg");
+     background-image: url("kepek/hatter.jpg");
      background-repeat: no-repeat;
      background-size: 100%;
      background-attachment: fixed;
@@ -11,8 +11,10 @@ body {
 .kozep {
     background-color: gainsboro;
     width: 80%;
-    min-height: 1500px;
+    min-height: 1400px;
     margin: 0 auto;
+    box-shadow: 5px 5px 5px #383E44;
+    border-radius: 4px;
 }
 
 .szelek {
@@ -24,13 +26,14 @@ h1 {
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
-    margin: 0 auto 20px auto;
+    margin: 0 auto;
     padding: 30px;
     font-size: 40px;
 }
 
 h2 {
     padding-left: 10px;
+    font-style: italic;
 }
 
 p {
@@ -111,40 +114,10 @@ a {
     background-color: white;
 }
 
-.lablec {
-    width: 25%;
-    margin: 1350px auto 0 auto;
-    display: block;
-    
+.kepdoboz:hover {
+    transform: scale(1.02);
 }
 
-.balgomb {
-    float: left;
-    width: 33%;
-    text-align: center;
-    cursor: pointer;
-    display: hidden;
-    background-color: white;
-    border-radius: 5px;
-    border: 2px solid gray;
-}
-
-.kozepgomb {
-    float: left;
-    width: 33%;
-    text-align: center;
-}
-
-.jobbgomb {
-    float: left;
-    width: 33%;
-    text-align: center;
-    cursor: pointer;
-    background-color: white;
-    border-radius: 5px;
-    border: 2px solid gray;
-}
-
-button:hover {
-    background-color: lightgray;    
+table:hover {
+    transform: scale(1.02);
 }

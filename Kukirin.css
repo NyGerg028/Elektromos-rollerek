@@ -1,0 +1,53 @@
+body {
+    font-family: Georgia;
+    background-color: white;
+    font-weight: bold;
+    margin: 0;
+    color: #EA6100;
+    font-size: 15px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-style: italic;
+    padding: 5px 10px;
+}
+
+img {
+    width: 300px;
+    margin: 30px auto 0 auto;
+    display: block;
+}
+
+p {
+    text-align: justify;
+    padding: 5px 20px;
+    font-size: 17px;
+}
+
+.balsorolas {
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.jobbsorolas {
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.jobbcim {
+    text-align: right;
+}
+
+.balcim {
+    text-align: left;
+}
+
+.baloldalikep {
+    float: left;
+    margin: 10px 20px;
+}
+
+.jobboldalikep {
+    float: right;
+}
