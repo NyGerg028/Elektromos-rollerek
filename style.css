@@ -11,7 +11,7 @@ body {
 .kozep {
     background-color: gainsboro;
     width: 80%;
-    min-height: 1400px;
+    min-height: 1390px;
     margin: 0 auto;
     box-shadow: 5px 5px 5px #383E44;
     border-radius: 4px;
@@ -104,11 +104,10 @@ table {
 
 a {
     text-decoration: underline;
-    color: black;
 }
 
 .kepdoboz {
-    box-shadow: 0 4px 8px 0 gray;
+    box-shadow: 0 4px 6px 0 gray;
     border-radius: 10px;
     margin: 100px 10px 10px 10px;
     background-color: white;
@@ -120,4 +119,34 @@ a {
 
 table:hover {
     transform: scale(1.02);
+}
+
+.kukirintablazat {
+    border: 2px solid whitesmoke;
+    border-spacing: 0;
+    border-radius: 0px;
+}
+
+.kukirintablazat td {
+    width: 20%;
+    border: 2px solid whitesmoke;
+}
+
+.kukirintablazat th {
+    border: 1px solid whitesmoke;
+    background-color: #FF7900;
+    color: white;
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.szurkesor {
+    background-color: #EEEEEE;
+}
+
+.kepkeret {
+    border-radius: 10px 0 10px 0;
+    border: 2px solid #FF7900;
+    box-shadow: 4px 4px 8px 0 gray;
 }
